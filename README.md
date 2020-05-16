@@ -23,6 +23,7 @@ In the `disappearingPivot` branch, I demo a new bug I found where pivots inside 
 
 ### Repro steps
 1. Clone this repo
+1. Switch git branches to `disappearingPivot`
 1. Open in VS2019 and launch by pressing F5.
 1. Open 2 new tabs using the TabView from the top half of the app.
 1. Select one of the tabs
