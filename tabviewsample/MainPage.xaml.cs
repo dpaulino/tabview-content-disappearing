@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.UI.Xaml.Controls;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -25,6 +26,19 @@ namespace tabviewsample
         public MainPage()
         {
             this.InitializeComponent();
+        }
+
+        private void TabView_AddTabButtonClick(Microsoft.UI.Xaml.Controls.TabView sender, object args)
+        {
+            var frame = new Frame();
+            frame.Navigate(typeof(TestPage));
+            var tab = new TabViewItem
+            {
+                Header = "Test",
+                Content = frame
+            };
+            sender.TabItems.Add(tab);
+            sender.SelectedItem = tab;
         }
     }
 }
