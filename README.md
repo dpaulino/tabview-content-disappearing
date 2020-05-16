@@ -11,8 +11,8 @@ Sample video showing bug: https://streamable.com/c4nbil
     - The bottom half is a tabview that is broken.
 1. Test top half
     - Press new tab (+) button twice to open two tabs.
-    - Drag and drop to rearrange the tabs. Content does not disappear.
+    - Drag and drop to rearrange the tabs. The text "Content Page" does not disappear.
 1. Test bottom half
     - Press new tab (+) button twice to open two tabs.
     - Drag and drop to rearrange the tabs
-    - Content disappears.
+    - The text "Content Page" disappears. It should NOT disappear.
