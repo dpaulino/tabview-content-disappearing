@@ -9,9 +9,49 @@
     mc:Ignorable="d">
 
     <Grid>
-        <TextBlock
-            HorizontalAlignment="Center"
-            VerticalAlignment="Center"
-            Text="Content page" />
+        <Pivot>
+            <PivotItem Header="Hello">
+                <TextBlock
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Text="Content page" />
+            </PivotItem>
+            <PivotItem Header="Hello">
+                <TextBlock
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Text="Content page" />
+            </PivotItem>
+            <PivotItem Header="Hello">
+                <TextBlock
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Text="Content page" />
+            </PivotItem>
+            <PivotItem Header="Hello">
+                <TextBlock
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Text="Content page" />
+            </PivotItem>
+            <PivotItem Header="Hello">
+                <TextBlock
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Text="Content page" />
+            </PivotItem>
+            <PivotItem Header="Hello">
+                <TextBlock
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Text="Content page" />
+            </PivotItem>
+            <PivotItem Header="Hello">
+                <TextBlock
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Text="Content page" />
+            </PivotItem>
+        </Pivot>
     </Grid>
 </Page>
