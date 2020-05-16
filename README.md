@@ -1,5 +1,7 @@
 ## WinUI TabView sample showing bug with content disappearing on tab rearrange
 
+Sample video showing bug: https://streamable.com/c4nbil 
+
 ### Repro steps
 
 1. Clone this repo
