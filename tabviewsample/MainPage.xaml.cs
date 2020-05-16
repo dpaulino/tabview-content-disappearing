@@ -28,17 +28,18 @@ namespace tabviewsample
             this.InitializeComponent();
         }
 
-        private void TabView_AddTabButtonClick(Microsoft.UI.Xaml.Controls.TabView sender, object args)
+        public MainPageViewModel ViewModel { get; } = new MainPageViewModel();
+
+        private void TabView_AddTabButtonClick(TabView sender, object args)
         {
             var frame = new Frame();
             frame.Navigate(typeof(TestPage));
             var tab = new TabViewItem
             {
-                Header = "Test",
+                Header = "Not broken",
                 Content = frame
             };
             sender.TabItems.Add(tab);
-            sender.SelectedItem = tab;
         }
     }
 }

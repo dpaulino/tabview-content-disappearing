@@ -15,10 +15,17 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
+        <!--  rearranging tabs works fine  -->
         <muxc:TabView
             Grid.Row="0"
             VerticalAlignment="Stretch"
             AddTabButtonClick="TabView_AddTabButtonClick" />
-        <muxc:TabView Grid.Row="1" VerticalAlignment="Stretch" />
+
+        <!--  content disappears when rearranging tabs  -->
+        <muxc:TabView
+            Grid.Row="1"
+            VerticalAlignment="Stretch"
+            AddTabButtonClick="{x:Bind ViewModel.TabView_AddTabButtonClick}"
+            TabItemsSource="{x:Bind ViewModel.Tabs}" />
     </Grid>
 </Page>
